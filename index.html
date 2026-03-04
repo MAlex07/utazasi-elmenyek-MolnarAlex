@@ -7,7 +7,17 @@
     <title>utazasi-elmenyek-molnaralex</title>
   </head>
   <body>
-    <div id="app"></div>
+    <main id="megjelenites"></main>
+
+    <form id="elmenyForm">
+      <label for="helyszin">Adja meg az utazása helyszínét</label><br>
+      <input type="text" id="helyszin"><br>
+      <label for="sztori">Írja le röviden az utazás sztoriját</label><br>
+      <input type="text" id="sztori"><br>
+      <label for="evszak">Válassza ki az utazás évszakját</label><br>
+      <input type="text" id="evszak"><br>
+      <button type="submit">Beküldés</button>
+    </form>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
